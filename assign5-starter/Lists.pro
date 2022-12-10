@@ -109,6 +109,7 @@ QMAKE_CXXFLAGS_WARN_ON      +=  -Wno-unused-const-variable
 *-clang { # warning flags specific to clang
     QMAKE_CXXFLAGS_WARN_ON  +=  -Wempty-init-stmt
     QMAKE_CXXFLAGS_WARN_ON  +=  -Wignored-qualifiers
+    QMAKE_CXXFLAGS_WARN_ON  +=  -Wno-c++11-narrowing
 }
 
 *-g++ {   # warning flags specific to g++
